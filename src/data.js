@@ -37,7 +37,7 @@ export const projects = [
 
 // -about you, in your own words —
 export const about = [
-  "i'm a hobbyist dev from germany. i mess around with code mostly because it's fun.",
-  "started with minecraft plugins as a kid. now i'm into fivem stuff, small backend tools, and learning how servers actually work under the hood.",
+  "i'm a hobby developer from germany. i mess around with code mostly because it's fun.",
+  "started with minecraft plugins as a kid. now i'm into fivem stuff, small backend tools, and learning how everything tech actually works under the hood.",
   "i don't really know what i'm doing half the time. that's kind of the point.",
 ]
