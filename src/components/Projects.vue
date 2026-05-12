@@ -1,6 +1,6 @@
 <script setup>
 import { projects, site } from '../data.js'
-import PixelIcon from './Icons.vue/index.js'
+import Icons from './Icons.vue'
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import PixelIcon from './Icons.vue/index.js'
     <!-- empty state: just an icon -->
     <div v-if="!projects.length" class="py-12 flex flex-col items-center justify-center gap-4">
       <div class="text-plum/40">
-        <PixelIcon name="folder" :size="32" />
+        <Icons name="folder" :size="32" />
       </div>
       <p class="text-dim text-sm text-center">nothing here yet</p>
       <p class="text-muted text-xs text-center">
@@ -31,7 +31,7 @@ import PixelIcon from './Icons.vue/index.js'
           class="group flex items-baseline gap-3 py-2.5 border-b border-line/60 hover:border-plum/40 transition-colors"
         >
           <span class="text-plum shrink-0 self-center">
-            <PixelIcon :name="p.icon || 'box'" :size="14" />
+            <Icons :name="p.icon || 'box'" :size="14" />
           </span>
           <span class="font-pixel text-text text-base group-hover:text-plum transition-colors">
             {{ p.name }}
@@ -40,7 +40,7 @@ import PixelIcon from './Icons.vue/index.js'
           <span class="text-dim text-[13px] flex-1">{{ p.note }}</span>
           <span v-if="p.year" class="text-muted text-xs shrink-0">{{ p.year }}</span>
           <span class="text-muted shrink-0 transition-transform group-hover:translate-x-1">
-            <PixelIcon name="arrow" :size="12" />
+            <Icons name="arrow" :size="12" />
           </span>
         </a>
       </li>

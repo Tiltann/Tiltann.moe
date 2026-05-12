@@ -1,6 +1,6 @@
 <script setup>
 import { site } from '../data.js'
-import PixelIcon from './Icons.vue/index.js'
+import Icons from './Icons.vue'
 </script>
 
 <template>
@@ -35,15 +35,15 @@ import PixelIcon from './Icons.vue/index.js'
     <!-- contact line -->
     <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs">
       <a :href="site.discord" target="_blank" rel="noopener" class="link inline-flex items-center gap-1.5">
-        <PixelIcon name="discord" :size="12" />
+        <Icons name="discord" :size="12" />
         discord
       </a>
       <a :href="site.github" target="_blank" rel="noopener" class="link inline-flex items-center gap-1.5">
-        <PixelIcon name="github" :size="12" />
+        <Icons name="github" :size="12" />
         github
       </a>
       <a :href="`mailto:${site.email}`" class="link inline-flex items-center gap-1.5">
-        <PixelIcon name="mail" :size="12" />
+        <Icons name="mail" :size="12" />
         {{ site.email }}
       </a>
     </div>

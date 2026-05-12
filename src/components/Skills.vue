@@ -1,6 +1,6 @@
 <script setup>
 import { skills } from '../data.js'
-import PixelIcon from './PixelIcon.vue'
+import Icons from './Icons.vue'
 
 const tagColor = {
   learning: 'text-gold border-gold/40 bg-gold/5',
@@ -25,7 +25,7 @@ const tagColor = {
       >
         <!-- icon: small, leading -->
         <span class="text-plum w-4 shrink-0 self-center">
-          <PixelIcon :name="s.icon" :size="16" />
+          <Icons :name="s.icon" :size="16" />
         </span>
 
         <!-- name -->
