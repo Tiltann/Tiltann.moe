@@ -7,7 +7,7 @@ export const site = {
   discord: 'https://discord.tiltann.dev',
   github: 'https://github.com/tiltann/',
   repo: 'https://github.com/Tiltann/Tiltann.moe',
-  email: 'hello@tiltann.moe',
+  email: 'hello@tiltann.dev',
 }
 
 // -what i can do —
