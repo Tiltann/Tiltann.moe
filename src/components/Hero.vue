@@ -42,6 +42,10 @@ import Icons from './Icons.vue'
         <Icons name="github" :size="12" />
         github
       </a>
+      <a :href="site.repo" target="_blank" rel="noopener" class="link inline-flex items-center gap-1.5">
+        <Icons name="repo" :size="12" />
+        repo
+      </a>
       <a :href="`mailto:${site.email}`" class="link inline-flex items-center gap-1.5">
         <Icons name="mail" :size="12" />
         {{ site.email }}

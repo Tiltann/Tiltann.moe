@@ -11,6 +11,7 @@ import LanguageCsharp from 'vue-material-design-icons/LanguageCsharp.vue'
 import LanguageJava from 'vue-material-design-icons/LanguageJava.vue'
 import LanguageLua from 'vue-material-design-icons/LanguageLua.vue'
 import Linux from 'vue-material-design-icons/Linux.vue'
+import SourceRepository from 'vue-material-design-icons/SourceRepository.vue'
 import Vuejs from 'vue-material-design-icons/Vuejs.vue'
 
 const props = defineProps({
@@ -26,6 +27,7 @@ const iconMap = {
   vue: Vuejs,
   discord: Chat,
   github: Github,
+  repo: SourceRepository,
   mail: Email,
   code: CodeBrackets,
   box: Box,

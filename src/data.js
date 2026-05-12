@@ -3,13 +3,15 @@
 export const site = {
   name: 'tiltann',
   handle: '@tiltann',
-  discord: 'https://discord.gg/your-invite',
-  github: 'https://github.com/tiltann',
+  website: 'https://tiltann.dev',
+  discord: 'https://discord.tiltann.dev',
+  github: 'https://github.tiltann.dev',
+  repo: 'https://github.com/Tiltann/Tiltann.moe',
   email: 'hello@tiltann.moe',
 }
 
 // — what i can do —
-// icons: csharp, java, lua, linux, vue, discord, github, mail, code, box, arrow
+// icons: csharp, java, lua, linux, vue, discord, github, repo, mail, code, box, arrow
 // status: 'learning' | 'comfortable' | 'solid'
 export const skills = [
   { name: 'C#',     icon: 'csharp', status: 'comfortable', note: '.net stuff, small tools, the odd unity thing' },
