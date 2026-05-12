@@ -5,7 +5,7 @@ export const site = {
   handle: '@tiltann',
   website: 'https://tiltann.dev',
   discord: 'https://discord.tiltann.dev',
-  github: 'https://github.tiltann.dev',
+  github: 'https://github.com/tiltann/',
   repo: 'https://github.com/Tiltann/Tiltann.moe',
   email: 'hello@tiltann.moe',
 }
