@@ -1,6 +1,6 @@
 <script setup>
 import { projects, site } from '../data.js'
-import PixelIcon from './PixelIcon.vue'
+import PixelIcon from './Icons.vue/index.js'
 </script>
 
 <template>
