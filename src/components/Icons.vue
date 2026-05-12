@@ -2,13 +2,13 @@
 import { computed } from 'vue'
 import ArrowRight from 'vue-material-design-icons/ArrowRight.vue'
 import Box from 'vue-material-design-icons/Box.vue'
-import Chat from 'vue-material-design-icons/Chat.vue'
+import Coffee from 'vue-material-design-icons/Coffee.vue'
 import CodeBrackets from 'vue-material-design-icons/CodeBrackets.vue'
+import DiscordIcon from './DiscordIcon.vue'
 import Email from 'vue-material-design-icons/Email.vue'
 import Github from 'vue-material-design-icons/Github.vue'
 import Folder from 'vue-material-design-icons/Folder.vue'
 import LanguageCsharp from 'vue-material-design-icons/LanguageCsharp.vue'
-import LanguageJava from 'vue-material-design-icons/LanguageJava.vue'
 import LanguageLua from 'vue-material-design-icons/LanguageLua.vue'
 import Linux from 'vue-material-design-icons/Linux.vue'
 import SourceRepository from 'vue-material-design-icons/SourceRepository.vue'
@@ -21,11 +21,11 @@ const props = defineProps({
 
 const iconMap = {
   csharp: LanguageCsharp,
-  java: LanguageJava,
+  java: Coffee,
   lua: LanguageLua,
   linux: Linux,
   vue: Vuejs,
-  discord: Chat,
+  discord: DiscordIcon,
   github: Github,
   repo: SourceRepository,
   mail: Email,
