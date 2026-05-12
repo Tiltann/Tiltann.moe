@@ -24,4 +24,5 @@ open http://localhost:5173
 
 ## How this is hosted
 
-This is hosted on Cloudflare Pages under tiltann.de
+This is hosted on Cloudflare Pages under tiltann.dev
+(https://tiltanndev.lukasname1233.workers.dev)
