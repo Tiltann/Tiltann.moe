@@ -23,10 +23,15 @@ export default {
       animation: {
         blink: 'blink 1.1s steps(2, start) infinite',
         wiggle: 'wiggle 4s ease-in-out infinite',
+        subtitleWobble: 'subtitleWobble 3.8s ease-in-out infinite',
       },
       keyframes: {
         blink: { '0%, 100%': { opacity: 1 }, '50%': { opacity: 0 } },
         wiggle: { '0%, 100%': { transform: 'rotate(-2deg)' }, '50%': { transform: 'rotate(3deg)' } },
+        subtitleWobble: {
+          '0%, 100%': { transform: 'rotate(-1.2deg)' },
+          '50%': { transform: 'rotate(1.2deg)' },
+        },
       },
     },
   },

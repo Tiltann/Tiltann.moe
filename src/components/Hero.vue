@@ -14,9 +14,14 @@ import Icons from './Icons.vue'
 
     <!-- name + poro sticker -->
     <div class="flex items-start gap-4 mb-8">
-      <h1 class="font-pixel text-5xl sm:text-7xl text-text leading-none">
-        {{ site.name }}
-      </h1>
+      <div class="relative">
+        <h1 class="font-pixel text-5xl sm:text-7xl text-text leading-none">
+          {{ site.name }}
+        </h1>
+        <span class="inline-block mt-1 ml-1 px-1 py-0.5 font-pixel text-[10px] sm:text-xs text-plum tracking-wide whitespace-nowrap animate-subtitleWobble origin-left bg-panel/55 border border-plum/35 shadow-[0_1px_0_rgba(19,16,28,0.9)]">
+          or lukas
+        </span>
+      </div>
       <img
         src="/poro.png"
         alt=""
